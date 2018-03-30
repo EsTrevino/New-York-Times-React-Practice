@@ -1,0 +1,32 @@
+{
+  "name": "nyt-react-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etrevino7607/nyt-react-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etrevino7607/nyt-react-scraper/issues"
+  },
+  "homepage": "https://github.com/etrevino7607/nyt-react-scraper#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.1",
+    "query-string": "^5.0.1",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-router-dom": "^4.2.2"
+  }
+}

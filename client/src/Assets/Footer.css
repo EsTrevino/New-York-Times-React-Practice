@@ -1,0 +1,49 @@
+.footer{
+	margin-top:50px;
+}
+
+
+.footer-top{
+	margin:auto;
+}
+
+.footer-copyright{
+	margin:auto;
+	align-items: center;
+	padding-top:5px;
+
+	
+}
+
+.footer ul{
+	display:flex;
+	list-style: none;
+	margin:auto;
+}
+
+.footer li{
+	cursor: pointer;
+	margin:auto;
+	margin-right:40px;
+}
+
+.footer a{
+	color:black;
+	text-decoration: none;
+}
+
+
+.footer a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+.footer a:active{
+	text-decoration: none;
+	color:black;
+}
+
+.footer a:visited{
+	text-decoration: none;
+	color:black;
+}
